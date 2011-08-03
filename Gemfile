@@ -1,12 +1,21 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.9'
+gem 'rails', '~> 3.0.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '~> 0.2.6'
-gem "jquery-rails"
+gem "jquery-rails", '1.0.12'
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'guard', '0.5.1'
+  gem 'guard-rspec', '0.4.0'
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'ruby-debug19', :require => 'ruby-debug'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -16,7 +25,6 @@ gem "jquery-rails"
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
-# gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'
