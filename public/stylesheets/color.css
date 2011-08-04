@@ -1,0 +1,29 @@
+/* here are defined the styles for color & font */
+#header .abr-container, #showcase {background-color: #ffffff;}
+
+#header .sf-menu a {font-family: 'Yanone Kaffeesatz', 'Helvetica',  arial, sans-serif; }
+#bottom {border-top:10px solid #C6BBA9;}
+.hasBorder {border-top:15px solid #353535;}
+.contact #showcase {border-bottom:15px solid #353535; }
+.learn-more {background-color:#009900;}
+.homeTitle {font-family: 'Yanone Kaffeesatz', 'Helvetica', arial, serif; color:#353535 }
+.findOut a {font-family: 'Yanone Kaffeesatz', 'Helvetica', arial, serif;}
+#header .sf-menu li.parent.sfHover ul li a:hover  {color:#353535}
+.readmore {background:#353535;}
+.readmore:hover {color:#353535;}
+#footer a {color:#353535;}
+#twitterIco {background-color:#353535;}
+.ltFollowUsLink a {color:#353535;}
+.mainnewsletter #name:focus, .mainnewsletter #email:focus {border:1px solid #353535;}
+.rapid_contact .inputbox:focus,.rapid_contact .textarea:focus {border:1px solid #353535;}
+.post .entry-title a, .blogItemTitle a {color:#353535 !important;}
+.itemTitle {color:#353535;}
+.catItemImageBlock img:hover {-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; border: 1px solid #AAA;}
+.itemImageBlock img:hover {-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px #888; box-shadow: 0 0 5px #888; border: 1px solid #AAA;}
+.read-more:hover {background: #353535; color:#fff !important; text-decoration:none !important; }
+div.itemCommentsForm form textarea.inputbox:focus ,div.itemCommentsForm form input.inputbox:focus {border:1px solid #353535; }
+#LP-pagination li.current, #TS-pagination li.current {background:#353535;border-color:#353535;}
+#footer a {color: #777777 !important;}
+#footer a:hover {color:#fff;}
+#top-link {background-color: #353535;border: 1px solid #353535;}
+h1, h2 { font-family: 'Yanone Kaffeesatz', 'Helvetica', arial, serif; }
