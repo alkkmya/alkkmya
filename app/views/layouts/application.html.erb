@@ -12,36 +12,43 @@
 
 <body>
 
-<div id="header">
-  <div class="abr-container ">
+<div id="header"> <!-- Cabeçalho -->
+
+  <div class="abr-container "> <!-- Container -->
     <div class="abr-container-pad">
+
       <div class="grid_3 abr-alpha logo_container">
         <a id="logo" href="/home/index"></a>
-      </div><!-- End Header -->
+      </div>
 
-      <div class="grid_9 abr-omega">
+      <div class="grid_9 abr-omega">  <!-- Menu-->
         <ul class="sf-menu sf-js-enabled">
           <li class="first-child"><a href="/about/index"><span>Quem Somos?</span></a></li>
           <li><a href="/products/index"><span>Produtos</span><span class="sf-sub-indicator"></span></a></li>
           <li><a href="/services/index"><span>Serviços</span><span class="sf-sub-indicator"></span></a></li>
           <li><a href="#"><span>Blog</span></a></li>
           <li class="last-child"><a href="/contacts/new"><span>Contato</span></a></li>
-        </ul><!-- End menu -->
-
-      </div><!-- End Header Grid 10 -->
+        </ul>
+      </div> <!-- Fim menu-->
       <div class="clear"></div>
-    </div><!-- End ABR CONTAINER PAD -->
-  </div><!-- End ABR CONTAINER -->
-</div><!-- End HEADER -->
-<div class="headerFix"></div>
 
+    </div>
+  </div> <!-- Fim Container -->
+
+</div> <!-- Cabeçalho -->
+
+
+<div class="headerFix"></div>
 <div class="notice"></div>
 <div class="alert"></div>
 
+<!-- Conteudo -->
+
 <%= yield %>
 
-<div id="bottom">
 
+<!-- Fim Conteudo -->
+<div id="bottom">
   <div id="footer">
     <div class="grid_2" style="text-align:center; width:98%">
       <div class="copyright">
@@ -51,10 +58,9 @@
         </div>
       </div>
     </div>
-
     <div class="clear"></div>
   </div>
-</div> <!-- END Bottom -->
+</div>
 
  </body>
 </html>

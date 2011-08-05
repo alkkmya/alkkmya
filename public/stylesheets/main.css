@@ -36,7 +36,7 @@ a {outline: medium none;text-decoration: none;color:#009fc1;}
 
 #header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:75px;margin-bottom: 0;margin-top:25px;}
 #header .sf-menu li {float:none;display:inline-block;zoom:1;*display:inline;background:url(../images/main-menu-separator.png) no-repeat right center transparent;}
-#header .sf-menu a {background:none;border:0;padding: 8px 5px 15px;font-size:19px;font-weight:400;letter-spacing:0.5px;margin:10px 25px 0 20px;color:#5D6B1E;}
+#header .sf-menu a {background:none;border:0;padding: 8px 5px 15px;font-size:19px;font-weight:400;letter-spacing:0.5px;margin:10px 25px 0 20px;color:#999999;}
 #header .sf-menu li.active a,#header .sf-menu li a:hover {background:url(../images/menu-bg-bottom.png) repeat-x center bottom transparent;color:#00DB00;}
 #header .sf-menu li.last-child {background:none;}
 #header .sf-menu li.last-child a {padding-right:0;}
