@@ -1,0 +1,44 @@
+.rt-pagination .tab {
+	DISPLAY: inline
+}
+.rt-pagination .page-block {
+	DISPLAY: inline
+}
+#mod_search_searchword {
+	PADDING-LEFT: 0px !important; WIDTH: 120px !important
+}
+.searchBox .button {
+	LINE-HEIGHT: 0; FONT-SIZE: 0px
+}
+.findOut {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.findOut .abr-block {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.findOut A {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.findOut {
+	MARGIN-TOP: 10px; ZOOM: 1; MARGIN-LEFT: 25px
+}
+.findOut A {
+	HEIGHT: 119px; PADDING-TOP: 29px
+}
+#name {
+	HEIGHT: 20px !important; VERTICAL-ALIGN: middle; PADDING-TOP: 6px !important
+}
+#email {
+	HEIGHT: 20px !important; VERTICAL-ALIGN: middle; PADDING-TOP: 6px !important
+}
+#bottom UL.list-type-6 {
+	LIST-STYLE-IMAGE: none
+}
+#header .sf-menu {
+	MARGIN-LEFT: 5px
+}
+
+@font-face {
+	font-family: Yanone Kaffeesatz;
+	src:url(http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v1/YDAoLskQQ5MOAgvHUQCcLbcQawGFB1zaa2VYh64hVv8.eot);
+}

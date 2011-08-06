@@ -1,67 +1,124 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <title>Alkkmya Software Studio</title>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <meta name="robots" content="index, follow">
 
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <%= stylesheet_link_tag 'main' %>
+  <%= stylesheet_link_tag 'common' %>
+  <%= stylesheet_link_tag 'color' %>
+  <%= stylesheet_link_tag 'css' %>
   <%= csrf_meta_tag %>
+
+  <!--[if IE ]>
+    <%= stylesheet_link_tag 'ie' %>
+  <![endif]-->
+
 </head>
 
 <body>
 
-<div id="header"> <!-- Cabeçalho -->
-
-  <div class="abr-container "> <!-- Container -->
-    <div class="abr-container-pad">
-
-      <div class="grid_3 abr-alpha logo_container">
-        <a id="logo" href="/home/index"></a>
-      </div>
-
-      <div class="grid_9 abr-omega">  <!-- Menu-->
-        <ul class="sf-menu sf-js-enabled">
-          <li class="first-child"><a href="/about/index"><span>Quem Somos?</span></a></li>
-          <li><a href="/products/index"><span>Produtos</span><span class="sf-sub-indicator"></span></a></li>
-          <li><a href="/services/index"><span>Serviços</span><span class="sf-sub-indicator"></span></a></li>
-          <li><a href="#"><span>Blog</span></a></li>
-          <li class="last-child"><a href="/contacts/new"><span>Contato</span></a></li>
-        </ul>
-      </div> <!-- Fim menu-->
-      <div class="clear"></div>
-
-    </div>
-  </div> <!-- Fim Container -->
-
-</div> <!-- Cabeçalho -->
-
+<!-- include header and menu -->
+<%= render :partial => 'layouts/header'%>
 
 <div class="headerFix"></div>
-<div class="notice"></div>
-<div class="alert"></div>
 
-<!-- Conteudo -->
+<div class="homepage">
+  <div id="main">
+    <%= yield %>
+  </div>
+  <!-- end main -->
+</div>
+ <!-- end home page -->
 
-<%= yield %>
 
-
-<!-- Fim Conteudo -->
-<div id="bottom">
-  <div id="footer">
-    <div class="grid_2" style="text-align:center; width:98%">
-      <div class="copyright">
+<div id="mainbottom">
+  <div class="abr-container ">
+    <div class="grid_4">
+      <div class="modLeft">
         <div class="abr-block">
-          <br>
-          <p>© 2011 Alkkmya. All rights reserved.</p>
+          <div class="module-title">
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <p><a class="learn-more" href="#">Saiba mais</a></p>
+      </div>
+    </div>
+    <div class="grid_4">
+      <div class="modLeft">
+        <div class="abr-block">
+          <div class="module-title">
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+          </div>
+          <!--<p><img width="280" class="with-shadow" alt="Let's do business!" src="images/content/handshake.jpg" /></p>-->
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <p><a class="learn-more" href="#">Saiba mais</a></p>
+    </div>
+    <div class="grid_4">
+      <div class="modLeft">
+        <div class="abr-block">
+          <div class="module-title">
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <!--<p>Além disso, você pode contar com um de nossos profissionais lhe ajudando em seu projeto, através de consultoria e coaching.</p>-->
+        </div>
+        <p><a class="learn-more" href="#">Saiba mais</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div><!-- end mainbottom -->
+
+<div id="bottom">
+  <div class="abr-container">
+    <div class="grid_6">
+      <div class="latestPosts">
+        <div class="abr-block">
+          <h2 class="title">Lorem ipsum dolor sit amet</h2>
+          <div style="overflow: hidden;" id="posts">
+            <ul style="left: 0px; width: 1840px;">
+			  <li>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius commodo odio, vel consequat lectus ultrices vitae.
+				</p>
+			  </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="grid_6">
+      <div class="testimonials">
+        <div class="abr-block">
+          <h2 class="title">Lorem ipsum dolor sit amet</h2>
+          <div style="overflow: hidden;" id="posts">
+            <ul style="left: 0px; width: 1840px;">
+              <li>
+                <p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius commodo odio, vel consequat lectus ultrices vitae.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- fim grid_6 -->
     <div class="clear"></div>
   </div>
+  <!-- fim abr-container -->
+
+<!-- include footer -->
+<%= render :partial => 'layouts/footer'%>
+
 </div>
+<!-- end bottom -->
 
  </body>
+
 </html>
 
