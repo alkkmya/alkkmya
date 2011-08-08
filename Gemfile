@@ -11,6 +11,7 @@ gem "jquery-rails", '1.0.12'
 group :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'shoulda-matchers', '~> 1.0.0.beta2'
   gem 'guard', '0.5.1'
   gem 'guard-rspec', '0.4.0'
   gem 'sqlite3-ruby', :require => 'sqlite3'
