@@ -1,3 +1,14 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent
+}
+
+
 @font-face {
   font-family: 'Yanone Kaffeesatz';
   font-style: normal;
@@ -10,3 +21,4 @@
   font-weight: 700;
   src: local('Yanone Kaffeesatz Bold'), local('YanoneKaffeesatz-Bold'), url('http://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v1/We_iSDqttE3etzfdfhuPRWwXwFHHZlCwprwJOQ-Se7k.woff') format('woff');
 }
+

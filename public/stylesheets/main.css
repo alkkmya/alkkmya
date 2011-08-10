@@ -19,7 +19,7 @@ h3 {font-size: 1.4em;}
 h4 {font-size: 1.2em;}
 h5 {font-size: 1.2em;}
 h2.highlighted_text {color: #777;line-height:1.2em;padding: 15px;border-top: 1px solid #CCC;}
-h2.title, h2.highlighted_text {background: url("../images/bg-h.png") no-repeat scroll left bottom transparent;font-size: 19px;font-weight: 400;padding-bottom: 15px;}
+h2.title, h2.highlighted_text {background: url("../images/bg-h.png") no-repeat scroll left bottom transparent;font-size: 24px;font-weight: 400;padding-bottom: 15px;}
 
 code {color: #000000;font: 10px Courier;margin: -1px 0 0;}
 blockquote {font: italic 16px/22px Georgia,Serif;}
@@ -31,7 +31,7 @@ a {outline: medium none;text-decoration: none;color:#009fc1;}
 .headerFix {display: block;height: 124px;}
 
 .logo_container {left:0!important;position:relative!important;}
-#logo {display:block;height:100px;margin-top:10px;width:281px;background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
+#logo {display:block;height:100px;margin-top:10px;margin-left:35px;width:281px;background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
 
 
 #header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:75px;margin-bottom: 0;margin-top:25px;}
