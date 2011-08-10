@@ -73,7 +73,11 @@ class ContactsController < ApplicationController
   # DELETE /contacts/1.xml
   def destroy
     @contact = Contact.find(params[:id])
-    @contact.destroy
+
+    if @contact.destroy
+       format.html { redirect_to(@contact, :notice => 'Contact was deleted.') }
+
+    end
 
     respond_to do |format|
       format.html { redirect_to(contacts_url) }
@@ -81,3 +85,4 @@ class ContactsController < ApplicationController
     end
   end
 end
+

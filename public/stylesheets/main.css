@@ -132,15 +132,21 @@ a.btn, .btn {background: #555 url("../images/button_overlay.png") repeat-x scrol
 #content-top .abr-omega, #content-bottom .abr-omega {margin-right: 0;}
 #content-top .module-title {margin:10px;}
 
-.step1 {background: url("../images/bg-step.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
-.step2 {background: url("../images/bg-step.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
-.step3 {background: url("../images/bg-step.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
+.step1 {background: url("../images/palette.png") no-repeat scroll 0 0 transparent;height: 160px;width: 210px;}
+.step2 {background: url("../images/idea.png") no-repeat scroll 0 0 transparent;height: 160px;width: 210px;}
+.step3 {background: url("../images/customizado.png") no-repeat scroll 0 0 transparent;height: 160px;width: 210px;}
 
 
 /*
 .step1 {background: url("../images/bg-step-arr.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
 .step2 {background: url("../images/bg-step-arr.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
 .step3 {background: url("../images/bg-step.png") no-repeat scroll 0 0 transparent;height: 113px;width: 210px;}
+
+.step1:hover {background-position: left bottom;}
+.step2:hover {background-position: left bottom;}
+.step3:hover {background-position: left bottom;}
+
+
 */
 
 /*
@@ -155,9 +161,6 @@ a.btn, .btn {background: #555 url("../images/button_overlay.png") repeat-x scrol
 #content-bottom .abr-block {color: #999999;font-size: 10px;line-height: 1.4;padding: 30px 20px 0 25px;}
 #content-bottom h3 {font-size: 14px;line-height: 1.1;margin: 0 0 10px;padding: 0;}
 
-.step1:hover {background-position: left bottom;}
-.step2:hover {background-position: left bottom;}
-.step3:hover {background-position: left bottom;}
 
 #mainbottom {margin-bottom:25px;}
 #mainbottom .modLeft .abr-block {height:130px;margin-bottom:5px;}
@@ -288,8 +291,8 @@ form a.createAssociatedRecord {line-height: 24px;margin-left: 10px;}
 form label {display:block;margin-top:6px;font-size:11px;font-weight:bold;margin-left:2px;}
 
 .field {padding: 0 0 15px 0;}
-.field input {background:#fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;height:26px;width:200px;padding:0;padding-left:10px;border:1px solid #ccc;font-size:12px;}
-.field textarea {background:#fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;height:80px;width:320px;padding:0;padding-left:10px;border:1px solid #ccc;font-size:12px;}
+.field input {background:#fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;height:26px;width:240px;padding:0;padding-left:10px;border:1px solid #ccc;font-size:12px;}
+.field textarea {background:#fff;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;height:80px;width:480px;padding:0;padding-left:10px;border:1px solid #ccc;font-size:12px;}
 .field input.antispam {width:30px;}
 
 .field .input {margin-left: 103px;}
