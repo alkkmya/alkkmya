@@ -31,10 +31,10 @@ a {outline: medium none;text-decoration: none;color:#009fc1;}
 .headerFix {display: block;height: 124px;}
 
 .logo_container {left:0!important;position:relative!important;}
-#logo {display:block;height:100px;margin-top:10px;margin-left:35px;width:281px;background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
+#logo {display:block;height:100px;margin-top:10px;margin-left:20px;width:281px;background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
 
 
-#header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:75px;margin-bottom: 0;margin-top:25px;}
+#header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:20px;margin-bottom: 0;margin-top:25px;}
 #header .sf-menu li {float:none;display:inline-block;zoom:1;*display:inline;background:url(../images/main-menu-separator.png) no-repeat right center transparent;}
 #header .sf-menu a {background:none;border:0;padding: 8px 5px 15px;font-size:19px;font-weight:400;letter-spacing:0.5px;margin:10px 25px 0 20px;color:#999999;}
 #header .sf-menu li.active a,#header .sf-menu li a:hover {background:url(../images/menu-bg-bottom.png) repeat-x center bottom transparent;color:#00DB00;}
