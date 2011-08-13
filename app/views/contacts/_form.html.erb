@@ -2,7 +2,6 @@
 <%= form_for(@contact) do |f| %>
   <% if @contact.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
       <ul>
        <% @contact.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
@@ -12,23 +11,23 @@
   <% end %>
 
   <div class="field">
-    <%= f.label 'Nome' %>
+    <%= f.label 'Nome *' %>
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label 'E-mail' %>
+    <%= f.label 'E-mail *' %>
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label 'Assunto' %>
+    <%= f.label 'Assunto *' %>
     <%= f.text_field :subject %>
   </div>
   <div class="field">
-    <%= f.label 'Mensagem' %>
+    <%= f.label 'Mensagem *' %>
     <%= f.text_area :message, :width => 600 %>
   </div>
   <div class="actions">
-    <%= f.submit  'Enviar'%>
+    <%= f.submit  'Enviar', :class => 'btn blue small' %>
   </div>
 <% end %>
 
