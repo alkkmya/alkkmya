@@ -127,6 +127,14 @@ a.btn, .btn {background: #555 url("../images/button_overlay.png") repeat-x scrol
 .mainnewsletter {color: #555555;font-size: 12px;font-weight: normal;}
 .mainnewsletter #prospect_name, .mainnewsletter #prospect_email {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background:#FFFFFF;border: 1px solid #CCCCCC;color: #353535;font-size: 12px;height: 26px;padding: 0 0 0 10px;width: 200px;}
 
+
+
+.parceiro {color: #555555;font-size: 12px;font-weight: normal;}
+.parceiro #prospect_name, .parceiro #prospect_email {-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;background:#FFFFFF;border: 1px solid #CCCCCC;color: #353535;font-size: 12px;height: 26px;padding: 0 0 0 10px;width: 200px;}
+
+
+
+
 #content-top, #content-bottom {overflow: hidden;}
 #content-top .abr-alpha, #content-bottom .abr-alpha {margin-left: 0;}
 #content-top .abr-omega, #content-bottom .abr-omega {margin-right: 0;}

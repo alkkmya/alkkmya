@@ -1,23 +1,6 @@
+#encoding: utf-8
+
 class ContactsController < ApplicationController
-  # GET /contacts
-  # GET /contacts.xml
-  def index
-    @contacts = Contact.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-    end
-  end
-
-  # GET /contacts/1
-  # GET /contacts/1.xml
-  def show
-    @contact = Contact.find(params[:id])
-
-    respond_to do |format|
-      format.html # show.html.erb
-    end
-  end
 
   # GET /contacts/new
   def new
@@ -26,11 +9,6 @@ class ContactsController < ApplicationController
     respond_to do |format|
       format.html # new.html.erb
     end
-  end
-
-  # GET /contacts/1/edit
-  def edit
-    @contact = Contact.find(params[:id])
   end
 
   # POST /contacts
@@ -42,24 +20,11 @@ class ContactsController < ApplicationController
         flash[:notice] = 'Mensagem enviada com sucesso.'
         format.html { redirect_to(:action => 'new') }
       else
+        flash[:notice] = 'Favor prencher os campos obrigatórios.'
         format.html { redirect_to(:action => 'new') }
       end
     end
   end
 
-  # DELETE /contacts/1
-  def destroy
-    @contact = Contact.find(params[:id])
-
-    if @contact.destroy
-       format.html { redirect_to(@contact, :notice => 'Contato deletado com sucesso.') }
-
-    end
-
-    respond_to do |format|
-      format.html { redirect_to(contacts_url) }
-      format.xml  { head :ok }
-    end
-  end
 end
 
