@@ -34,7 +34,7 @@ a {outline: medium none;text-decoration: none;color:#009fc1;}
 #logo {display:block;height:100px;margin-top:10px;margin-left:20px;width:281px;background: url("../images/logo.png") no-repeat scroll 0 0 transparent;}
 
 
-#header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:20px;margin-bottom: 0;margin-top:25px;}
+#header .sf-menu {display:inline-block;zoom:1;*display:inline;float:none;margin-left:35px;margin-bottom: 0;margin-top:25px;}
 #header .sf-menu li {float:none;display:inline-block;zoom:1;*display:inline;background:url(../images/main-menu-separator.png) no-repeat right center transparent;}
 #header .sf-menu a {background:none;border:0;padding: 8px 5px 15px;font-size:19px;font-weight:400;letter-spacing:0.5px;margin:10px 25px 0 20px;color:#999999;}
 #header .sf-menu li.active a,#header .sf-menu li a:hover {background:url(../images/menu-bg-bottom.png) repeat-x center bottom transparent;color:#00DB00;}
@@ -57,7 +57,7 @@ a {outline: medium none;text-decoration: none;color:#009fc1;}
 #showcase {background: url("../images/slide-bg.png") no-repeat center center;}
 #showcase .abr-container {background: url("../images/shadow-up.png") no-repeat scroll center bottom transparent;}
 .homepage #showcase .abr-container {width: 100%;}
-.homepage #showcase .abr-container .grid_12 {background-image: url("../images/slide-bottom-bar.png");background-position: center bottom;background-repeat: repeat-x;margin: 0;width: 100%;}
+.homepage #showcase .abr-container .grid_12 {background-position: center bottom;background-repeat: repeat-x;margin: 0;width: 100%;}
 .slides-container {position:relative;}
 
 

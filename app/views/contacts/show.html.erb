@@ -1,38 +1,41 @@
- <div class="abr-container ">
-  <div class="grid_9">
-      <div id="mainbody">
-          <div class="article">
-           <div class="headline">
-              <h1 class="article-title green">Visualizar</h1>
-              <div class="clear"></div>
-            </div>
+  <div id="main">
 
-            <p>
-              <b>Nome:</b>
-              <%= @contact.name %>
-            </p>
+   <div class="abr-container ">
+    <div class="grid_9">
+        <div id="mainbody">
+            <div class="article">
+             <div class="headline">
+                <h1 class="article-title green">Visualizar</h1>
+                <div class="clear"></div>
+              </div>
 
-            <p>
-              <b>E-mail:</b>
-              <%= @contact.email %>
-            </p>
+              <p>
+                <b>Nome:</b>
+                <%= @contact.name %>
+              </p>
 
-            <p>
-              <b>Assunto:</b>
-              <%= @contact.subject %>
-            </p>
+              <p>
+                <b>E-mail:</b>
+                <%= @contact.email %>
+              </p>
 
-            <p>
-              <b>Mensagem:</b>
-              <%= @contact.message %>
-            </p>
+              <p>
+                <b>Assunto:</b>
+                <%= @contact.subject %>
+              </p>
 
-             <%= link_to 'Voltar', contacts_path %>
+              <p>
+                <b>Mensagem:</b>
+                <%= @contact.message %>
+              </p>
 
-         </div>
-      </div>
-   </div>
-	  <!--fim grid_9  -->
-	<div class="clear"></div>
+               <%= link_to 'Voltar', contacts_path %>
+
+           </div>
+        </div>
+     </div>
+	    <!--fim grid_9  -->
+	  <div class="clear"></div>
+  </div>
 </div>
 

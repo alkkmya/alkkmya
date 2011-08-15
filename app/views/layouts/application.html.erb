@@ -31,7 +31,11 @@
       $(window).load(function() {
           $('#slider').nivoSlider({
            effect:'random',
-            slices:10,
+            slices:15,
+            animSpeed:500,
+            boxCols: 8, // For box animations
+            boxRows: 4, // For box animations
+            pauseTime:3000, // How long each slide will show
             directionNav:false,
             directionNavHide:false,
             controlNav:false,
@@ -58,10 +62,8 @@
   <div class="headerFix"></div>
 
   <div class="homepage">
-    <div id="main">
       <%= yield %>
-    </div>
-    <!-- end main -->
+
   </div>
    <!-- end home page -->
 

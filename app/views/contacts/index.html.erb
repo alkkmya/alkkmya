@@ -1,37 +1,39 @@
- <div class="abr-container ">
-  <div class="grid_9">
-      <div id="mainbody">
-          <div class="article">
-           <div class="headline">
-              <h1 class="article-title green">Contatos</h1>
-              <div class="clear"></div>
-              </div>
-                <table>
-                  <tr>
-                    <th>Nome</th>
-                    <th>E-mail</th>
-                    <th>Assunto</th>
-                    <th>Mensagem</th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                  </tr>
+<div id="main">
+   <div class="abr-container ">
+    <div class="grid_9">
+        <div id="mainbody">
+            <div class="article">
+             <div class="headline">
+                <h1 class="article-title green">Contatos</h1>
+                <div class="clear"></div>
+                </div>
+                  <table>
+                    <tr>
+                      <th>Nome</th>
+                      <th>E-mail</th>
+                      <th>Assunto</th>
+                      <th>Mensagem</th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
 
-                <% @contacts.each do |contact| %>
-                  <tr>
-                    <td><%= contact.name %></td>
-                    <td><%= contact.email %></td>
-                    <td><%= contact.subject %></td>
-                    <td><%= contact.message %></td>
-                    <td><%= link_to 'Visualizar', contact %></td>
-                    <td><%= link_to 'Excluir', contact, :confirm => 'Are you sure?', :method => :delete %></td>
-                  </tr>
-                <% end %>
-                </table>
-         </div>
-      </div>
-   </div>
-	  <!--fim grid_9  -->
-	<div class="clear"></div>
+                  <% @contacts.each do |contact| %>
+                    <tr>
+                      <td><%= contact.name %></td>
+                      <td><%= contact.email %></td>
+                      <td><%= contact.subject %></td>
+                      <td><%= contact.message %></td>
+                      <td><%= link_to 'Visualizar', contact %></td>
+                      <td><%= link_to 'Excluir', contact, :confirm => 'Are you sure?', :method => :delete %></td>
+                    </tr>
+                  <% end %>
+                  </table>
+           </div>
+        </div>
+     </div>
+	    <!--fim grid_9  -->
+	  <div class="clear"></div>
+  </div>
 </div>
 
