@@ -4,7 +4,7 @@ class Notifier < ActionMailer::Base
   def notification(contact)
     mail :to => 'jorgecavelar@gmail.com', :subject => contact.subject
 
-#    mail :to => 'jorgecavelar@gmail.com', :subject => contact.subject, :body => "#{contact.name} - #{contact.email} #{contact.message}"
+    #mail :to => 'jorgecavelar@gmail.com', :subject => contact.subject, :body => "#{contact.name} - #{contact.email} #{contact.message}"
 
   end
 end

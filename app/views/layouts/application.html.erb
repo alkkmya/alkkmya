@@ -18,8 +18,13 @@
   <%= stylesheet_link_tag 'common' %>
   <%= stylesheet_link_tag 'color' %>
   <%= stylesheet_link_tag 'css' %>
+
   <%= stylesheet_link_tag 'nivo-slider' %>
+
+  <%= stylesheet_link_tag 'basic' %>
+
   <%= javascript_include_tag :all %>
+
 
   <%= csrf_meta_tag %>
 
@@ -27,15 +32,20 @@
     <%= stylesheet_link_tag 'ie' %>
   <![endif]-->
 
+  <!--[if IE 7 ]>
+    <%= stylesheet_link_tag 'basic_ie' %>
+  <![endif]-->
+
+
    <script type="text/javascript">
       $(window).load(function() {
           $('#slider').nivoSlider({
            effect:'random',
             slices:15,
             animSpeed:500,
-            boxCols: 8, // For box animations
-            boxRows: 4, // For box animations
-            pauseTime:3000, // How long each slide will show
+            boxCols: 8,
+            boxRows: 4,
+            pauseTime:3000,
             directionNav:false,
             directionNavHide:false,
             controlNav:false,

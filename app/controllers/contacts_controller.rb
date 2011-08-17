@@ -2,7 +2,6 @@
 
 class ContactsController < ApplicationController
 
-  # GET /contacts/new
   def new
     @contact = Contact.new
 
@@ -11,7 +10,6 @@ class ContactsController < ApplicationController
     end
   end
 
-  # POST /contacts
   def create
     @contact = Contact.new(params[:contact])
 
